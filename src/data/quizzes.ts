@@ -422,7 +422,7 @@ export const quizzes: Quiz[] = [
         question: 'Wie hoch sind die Kaufnebenkosten beim Immobilienkauf ungefähr?',
         options: ['1-2% des Kaufpreises', '5-7% des Kaufpreises', '10-15% des Kaufpreises', '20-25% des Kaufpreises'],
         correctIndex: 2,
-        explanation: 'Kaufnebenkosten (Grunderwerbsteuer 3,5-6,5% + Notar ca. 1,5-2% + Makler ca. 3-7%) betragen zusammen ca. 10-15% des Kaufpreises!',
+        explanation: 'Kaufnebenkosten (Grunderwerbsteuer 3,5-6,5% + Notar ca. 1,5-2% + Makler ca. 5-7%) betragen zusammen ca. 10-15% des Kaufpreises!',
         xpValue: 5,
       },
       {
@@ -476,6 +476,14 @@ export const quizzes: Quiz[] = [
         options: ['Hohe Rendite', 'Niedrige Rendite', 'Hohes Risiko', 'Lange Laufzeit'],
         correctIndex: 1,
         explanation: 'Hohe Sicherheit + hohe Liquidität = niedrige Rendite. Beispiele: Girokonto, Tagesgeld — sicher und verfügbar, aber kaum Zinsen.',
+        xpValue: 5,
+      },
+      {
+        id: 'md6', type: 'multiple-choice',
+        question: 'In welche Risikoklasse gehören Aktien und Aktienfonds?',
+        options: ['Risikoklasse I', 'Risikoklasse II', 'Risikoklasse IV', 'Risikoklasse V'],
+        correctIndex: 2,
+        explanation: 'Aktien und Aktienfonds gehören in Risikoklasse IV. Die Klassen reichen von I (sehr sicher, z.B. Termineinlagen) bis V (sehr riskant, z.B. Futures).',
         xpValue: 5,
       },
     ],
@@ -546,10 +554,10 @@ export const quizzes: Quiz[] = [
       },
       {
         id: 'gr4', type: 'multiple-choice',
-        question: 'Einstein nannte den Zinseszins angeblich das...',
-        options: ['Beste Gesetz', 'Achte Weltwunder', 'Wichtigste Werkzeug', 'Größte Geheimnis'],
+        question: 'Einstein nannte den Zinseszins angeblich die...',
+        options: ['Beste Erfindung', 'Stärkste Kraft im Universum', 'Wichtigste Formel', 'Größte Entdeckung'],
         correctIndex: 1,
-        explanation: '„Der Zinseszins ist das achte Weltwunder. Wer ihn versteht, verdient daran; wer ihn nicht versteht, bezahlt ihn."',
+        explanation: 'Auf die Frage nach der stärksten Kraft im Universum soll Einstein geantwortet haben: „Das ist der Zinseszins."',
         xpValue: 5,
       },
       {
